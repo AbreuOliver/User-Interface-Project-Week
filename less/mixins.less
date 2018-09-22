@@ -1,8 +1,35 @@
-.font-style-std() {
-  background-color: @white;
-  color: @black;
-  font-family: 'Roboto', 'Arial', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 2.4rem;
-}
+.general-text-style() {
+    background-color: @general-background;
+    color: @general-text-color;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: @general-text-font-size;
+    font-weight: @general-text-font-weight;
+    line-height: @general-text-line-height;
+  }
+
+  .jumbotron-text-style() {
+    font-weight: @jumbotron-font-weight;
+    font-size: @jumbotron-font-size;
+    line-height: @jumbotron-font-line-height;
+    color: @jumbotron-font-color;
+  }
+
+  .sub-header-style() {
+    font-weight: @sub-headers-font-weight;
+    font-size: @sub-headers-font-size;
+    color: @sub-headers-font-color;
+  }
+
+  .footer-header-style() {
+    font-weight: @footer-header-font-weight;
+    font-size: @footer-header-font-size;
+    line-height: @footer-header-line-height;
+    color: @footer-header-text-color;
+  }
+
+  .footer-text-style() {
+    font-weight: @footer-text-font-weight;
+    font-size: @footer-text-font-weight;
+    line-height: @footer-text-line-height;
+    color: @footer-text-text-color;
+  }
