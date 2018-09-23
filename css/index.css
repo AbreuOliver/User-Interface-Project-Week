@@ -1,3 +1,4 @@
+/* <--- >>> BEGIN OLIVER'S LESS ---> */
 /*------------------------------------*\
 RESET
 \*------------------------------------*/
@@ -129,4 +130,38 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* <--- >>> BEGIN OLIVER'S CSS ---> */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #FFFFFF;
+  color: #222222;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 1.6rem;
+  font-weight: regular;
+  line-height: 2.4rem;
+}
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.desktop-image {
+  display: block;
+}
+@media (max-width: 400px) {
+  .desktop-image {
+    display: none;
+  }
+}
+.mobile-image {
+  display: none;
+}
+@media (max-width: 400px) {
+  .mobile-image {
+    display: block;
+  }
+}
