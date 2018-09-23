@@ -1,0 +1,34 @@
+.navigation-container {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  background-color: @navigation-bar-background-color;
+}
+
+a {
+  font-size: 2.4rem;
+  color: @general-background;
+  text-decoration: none;
+
+  &:visited {
+    color: @general-background;
+  }
+}
+
+.navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+
+  font-size: 2.4rem;
+  counter: @general-background;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
