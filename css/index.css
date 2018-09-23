@@ -194,3 +194,20 @@ a:visited {
 .menu-icon {
   cursor: pointer;
 }
+.hero-image-container {
+  width: 1024px;
+  height: 600px;
+  margin: 0 auto;
+  background: url("../img/home/home-jumbotron.png");
+}
+.hero-image-container .hero-image-text {
+  height: 100%;
+}
+.hero-image-container h1 {
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: #FFFFFF;
+  position: absolute;
+  top: 330px;
+}
