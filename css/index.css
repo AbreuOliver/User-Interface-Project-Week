@@ -277,11 +277,34 @@ a:visited {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 .body-content-top-half .top-half-container-2 .text-container {
   order: 2;
   margin: 45px 0 30px 70px;
+}
+.body-content-bottom-half img {
+  width: 100%;
+}
+.body-content-bottom-half h2 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: #222222;
+  margin-bottom: 50px;
+}
+.body-content-bottom-half .header-image-with-description-box-right {
+  position: relative;
+}
+.body-content-bottom-half .header-image-with-description-box-right h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  height: 69px;
+  width: 250px;
+  font-size: 2.2rem;
+  letter-spacing: 1rem;
+  background-color: #D7D8D7;
 }
 footer {
   display: flex;
