@@ -309,6 +309,30 @@ a:visited {
   right: 0;
   bottom: -30px;
 }
+.body-content-bottom-half .header-image-with-description-box-left {
+  position: relative;
+}
+.body-content-bottom-half .header-image-with-description-box-left h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  height: 69px;
+  width: 250px;
+  font-size: 2.2rem;
+  letter-spacing: 1rem;
+  background-color: #D7D8D7;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+}
+.body-content-bottom-half .header-text {
+  margin: 95px 200px;
+}
+.body-content-bottom-half .header-text p {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
 footer {
   display: flex;
   background-color: #828282;
